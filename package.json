@@ -1,0 +1,33 @@
+{
+    "name": "sds-starterapp",
+    "version": "1.0.0",
+    "description": "STarter APP",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npx prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/omermaksutii/nodestarter"
+    },
+    "author": "Omer Maksuti",
+    "license": "AGPL-3.0",
+    "homepage": "hhttps://github.com/omermaksutii/nodestarter",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "ngrok": "^4.2.2",
+        "socket.io": "^4.2.0",
+        "swagger-ui-express": "^4.1.6",
+        "uuid": "8.3.2",
+        "yamljs": "^0.3.0"
+    },
+    "devDependencies": {
+        "node-fetch": "^3.0.0",
+        "prettier": "2.4.1"
+    }
+}
